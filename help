@@ -1,0 +1,16 @@
+IF :
+
+ *  Executing task: C/C++: g++.exe build active file 
+
+Starting build...
+cmd /c chcp 65001>nul && C:/msys64/ucrt64/bin/g++.exe -fdiagnostics-color=always -g G:\cpp-programming\Basics_p2\typeConvertion.cpp -o G:\cpp-programming\Basics_p2\typeConvertion.exe
+
+Build finished with error(s).
+
+ *  The terminal process failed to launch (exit code: -1). 
+ *  Terminal will be reused by tasks, press any key to close it. 
+
+THEN ::
+<p1></p1>
+
+> pacman -S mingw-w64-ucrt-x86_64-gcc

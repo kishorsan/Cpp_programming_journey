@@ -23,18 +23,22 @@ int main() {
     x = x * 2;
     cout << x << endl;
     int f = x++;
-    printf("x++ : "); //only x chamges and f dosen't changes
+
+    printf("x++ : "); //only x changes and f dosen't changes
     cout << x << endl;
     cout << f << endl;
     int g = ++x;
+
     printf("++x : "); //both together
     cout << x << endl;
     cout << g << endl;
     int h = x--;
+
     printf("x-- : "); //only x changes and h dosesn't changes
     cout << x << endl;
     cout << h << endl;
     int i = --x;
+
     printf("--x : ");  //both together
     cout << x << endl;
     cout << i << endl;

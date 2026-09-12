@@ -5,7 +5,7 @@ using namespace std;
 // Stream insertion operator <<
 
 int main() { 
-    cout << "Enter a value : ";
+    cout << "Enter an integer value : ";
     int value;
     cin >> value;
     cout << "Value : " << value << endl;
@@ -15,7 +15,7 @@ int main() {
     cin >> value1;
     cout << "Value1 : " << value1 << endl;
     
-    cout << "Enter values for x and y " << endl;
+    cout << "Enter integer values for x and y " << endl;
     int x,y;
     cin >> x >> y;
     cout << x + y;

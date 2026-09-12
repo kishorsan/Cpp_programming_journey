@@ -33,7 +33,8 @@ int main(){
 
     std::cout << "Hello " << name << '\n';
 
-    std::cout << name.find(' ');
+    std::cout << "' ' in the position " << name.find(' ') << std::endl;
+    std::cout << "This is returned if find(char) will not find the char " << std::string::npos << '\n';
 
     name.erase(0,2);
 

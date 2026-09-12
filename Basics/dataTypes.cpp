@@ -9,7 +9,7 @@ int main() {
     bool isValid = false;
     char chr = 'a';
 
-    int num {}; 
+    int num {900}; 
     /* will give us 0 as initializer
     if we put 8.9 in there it will not compile 
     if we put int itself then it will initialize*/ 

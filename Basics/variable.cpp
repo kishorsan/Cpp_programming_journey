@@ -17,7 +17,7 @@ int main() {
 void raise() {
     //Types of variables
     int file_size; //snake case
-    int FileSize; //Pascal case  For classes 
-    int fileSize; //Camal case  For variables and constants
-    int iFileSize; //Hungarian case
+    int FileSize; //Pascal case         For classes 
+    int fileSize; //Camal case          For variables and constants
+    int iFileSize; //Hungarian case     For Trial n Error 
 } 

@@ -8,7 +8,8 @@ int main() {
     cout << another << endl;  // result of narrowing convertion
 
     short another1 {number}; // the program would not compile to result in a lower value
-
+    // here there will be data loss due to downward conversion 
+    // Meaning : INT will be downcasted to short with higher value resulting in data loss 
     short num = 12000;
     cout << num << endl;
 
